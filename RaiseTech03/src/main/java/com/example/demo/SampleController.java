@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class HelloSpringBootWebController {
+public class SampleController {
 	@RequestMapping(value="/",method=RequestMethod.GET)
 	public ModelAndView index(ModelAndView mv) {
 		mv.setViewName("index");
